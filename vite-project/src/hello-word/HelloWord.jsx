@@ -4,16 +4,12 @@ export default function HelloWorld(){
 
     let mensage = ''
     let [name, setName] = useState('');
-    let [message, setMessage] = useState('');
+    let [mensage, setMessage] = useState('');
 
-    const handleHelloWorld = (event) => {
-        setMessage('');
-        setName('');
-
-    }
+    const handleHelloWorld = () => setMessage(`Hello word, ${name}`)
 
     const handleClear = (event) => {
-        console.log(event)
+        setMessage('');
         setName('');
         
     }
