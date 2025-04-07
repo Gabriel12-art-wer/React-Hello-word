@@ -1,0 +1,39 @@
+
+body{
+  background-color: rgb(255, 251, 1);
+  color: darkcyan;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;overflow: hidden;
+}
+
+input{
+  background-color: rgb(255, 255, 255);
+  color: rgb(170, 245, 245);
+  border: 1px solid rgb(235, 233, 147);
+  padding: 0.5;
+  border-color: rgb(201, 188, 6);
+  border-width: 1px;
+  border-style: dashed;
+}
+
+input:focus{
+border: 1px dashed rgb(255, 255, 255);
+outline: none;
+}
+
+
+button{
+background-color: rgb(204, 9, 9);
+color: rgb(255, 255, 255);
+font-family: 'Courier New', Courier, monospace;
+padding: 1rem;
+border: 1px solid rgb(0, 0, 0) ;
+}
+
+button :hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 139, 0);
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1rem;
+  border: 1px solid rgb(0, 0, 0) ;
+}
